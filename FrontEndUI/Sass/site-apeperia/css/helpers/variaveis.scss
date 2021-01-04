@@ -1,0 +1,8 @@
+//Variaveis sass (chamadas com $variavel)
+$cor-padrao: darken(#c24e4b, 20%);
+$cor-auxiliar: lighten(#1e2c35, 10%);
+$corbranca: saturate(#FFF, 100);
+$tamanhoDaFontePadrao: 16px;
+
+//Media Querie passado como variavel. Utilizar #{Variavel} para concatenar na hora de chamar.
+$mqMobile: "(max-width: 980px)";
