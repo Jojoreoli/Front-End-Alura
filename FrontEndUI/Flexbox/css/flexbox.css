@@ -1,0 +1,141 @@
+/*Cabeçalho*/
+.cabecalhoPrincipal .container {
+  display: flex; /*Coloca os elementos um do lado do outro*/
+  align-items: center; /*Alinha os elementos verticalmente ao centro*/
+  justify-content: space-between; /*Distribui o espaço vazio entre os elementos*/
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+/*Main body grid*/
+.conteudoPrincipal-cursos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+  margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+  margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+/*Vantagens e video*/
+.videoSobre .container {
+  display: flex;
+}
+
+.videoSobre-sobre{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.videoSobre-sobre-list {
+  flex-grow: 1;
+}
+
+.videoSobre-video{
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+/*Rodapé*/
+.rodapePrincipal-navMap-list{
+  display: flex;
+  flex-direction: column; /*O flex trabalha em colunas*/
+  height: 250px; /*Altura da coluna de cada elemento*/
+  flex-wrap: wrap; /*Inicia uma nova coluna ao iniciar um novo bloco de conteudo*/
+  /*flex-flow: column wrap (substitui as duas de cima)*/
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /*Distribui o espaço vazio ao redor dos elementos*/
+
+  /*Tamanho do espaço ocupado pela lista, + Margem para não encostar no elemento da direita*/
+  width: 70%;
+  margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+  /*Tamanho do espaço ocupado pelo form a direita*/
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+
+/*Media queries*/
+@media(max-width: 768px){
+  .cabecalhoPrincipal-nav {
+    flex-direction: column;
+  }
+
+  .cabecalhoPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+
+  .conteudoPrincipal-cursos {
+    flex-direction: column;
+  }
+
+  .conteudoPrincipal-cursos-link {
+    width: 100%;
+  }
+
+  .videoSobre .container {
+    flex-direction: column;
+  }
+
+  .videoSobre-video {
+    margin: 0 auto;
+  }
+
+  .rodapePrincipal-navMap-list {
+    height: auto;
+  }
+
+  .rodapePrincipal-patrocinadores .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+    margin: 0;
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm {
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+  }
+
+  .cabecalhoPrincipal-nav-link-app {
+    order: -1;/*Todos flex item tem order:0 de padrão,então ao botar -1 se envia para o inicio.
+    Propriedade definida pelo flex item (referencia css-tricks)*/
+  }
+}
