@@ -7,3 +7,4 @@
  - JavaScript: Programando a orientação a objetos
  - JavaScript: Interfaces e Herança em Orientação a Objetos
  - Sass: Descomplicando o CSS
+ - Flexbox: Posicione elementos na tela
