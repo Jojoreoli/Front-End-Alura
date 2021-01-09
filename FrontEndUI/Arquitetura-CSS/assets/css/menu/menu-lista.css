@@ -1,0 +1,4 @@
+/* Colocando os items do menu lado a lado */
+.cabecalho__menu {
+  display: flex;
+}

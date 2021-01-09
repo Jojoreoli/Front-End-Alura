@@ -1,0 +1,5 @@
+/* Deixando o banner relativo para que o banner-titulo fique centralizado
+em relação a imagem. */
+.banner {
+  position: relative;
+}

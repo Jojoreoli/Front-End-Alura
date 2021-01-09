@@ -1,0 +1,12 @@
+/* Estilizando os botões dos elementos receita */
+.receita__botao {
+  background: darkred;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+}
+
+.receita__botao:hover {
+  cursor: pointer;
+}

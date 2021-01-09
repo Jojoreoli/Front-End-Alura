@@ -1,0 +1,6 @@
+/* Estilizando a descrição da seção quem somos */
+.quemSomos__descricao {
+  color: #595959;
+  font-weight: 100;
+  font-size: 1.5rem;
+}

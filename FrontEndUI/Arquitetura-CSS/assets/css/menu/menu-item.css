@@ -1,0 +1,10 @@
+/* Tirando os bullets da lista */
+.cabecalho__menu--itemLista {
+  list-style: none;
+}
+
+/* Deixando o primeiro item em negrito */
+.cabecalho__menu--itemLista:first-child {
+  color: #333333;
+  font-weight: bold;
+}

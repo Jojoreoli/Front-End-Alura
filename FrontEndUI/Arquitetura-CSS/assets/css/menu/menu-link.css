@@ -1,0 +1,17 @@
+/* Estilizando os items do menu */
+.cabecalho__menu--link{
+  color: #808080;
+  margin: 0 1rem;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+/* Tirando a margem do ultimo item */
+.cabecalho__menu--link:last-child {
+  margin-right: 0;
+}
+
+/* Desrespeitando a paridade de conteúdo e adicionando um hover */
+.cabecalho__menu--link:hover {
+  text-decoration: underline;
+}

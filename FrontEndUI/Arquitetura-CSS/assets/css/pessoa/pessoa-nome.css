@@ -1,0 +1,7 @@
+/* Estilizando o nome dos elementos Pessoa */
+.pessoa__nome {
+  color: darkred;
+  font-family: Pacifico,cursive;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
