@@ -8,3 +8,7 @@
  - JavaScript: Interfaces e Herança em Orientação a Objetos
  - Sass: Descomplicando o CSS
  - Flexbox: Posicione elementos na tela
+ - CSS Grid: Simplificando layouts
+ - Web Design Responsivo: Páginas que se adaptam do mobile ao desk
+ - Layouts Responsivos: Trabalhando com layouts mobile
+ - Arquitetura CSS: Descomplicando os problemas
